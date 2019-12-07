@@ -109,7 +109,7 @@ classified = [(subject, is_spam, classifier.classify (subject))
 # In[71]:
 
 
-classified
+print(classified)
 
 
 # In[72]:
@@ -121,7 +121,7 @@ counts = Counter((is_spam, spam_probability>0.5) for _, is_spam, spam_probabilit
 # In[73]:
 
 
-counts
+print(counts)
 
 
 # In[ ]:
